@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.293.0](https://github.com/Flagsmith/flagsmith/compare/v2.292.0...v2.293.0) (2026-11-18)
+
+
+### Features
+
+* **Audit logs:** Emit authentication audit logs ([#8931](https://github.com/Flagsmith/flagsmith/issues/8931)) ([e9acd24](https://github.com/Flagsmith/flagsmith/commit/e9acd24beaf4fa7b280fcf25fe8507cdef42a2bc))
+* **AuditLog:** Filter the organisation audit log by scope ([#8941](https://github.com/Flagsmith/flagsmith/issues/8941)) ([fe9eee8](https://github.com/Flagsmith/flagsmith/commit/fe9eee89a99162e5099dfc7e4c9148ae865f5a88))
+* **chip:** add success and warning variants ([#9002](https://github.com/Flagsmith/flagsmith/issues/9002)) ([0dd2d9a](https://github.com/Flagsmith/flagsmith/commit/0dd2d9ae64567818d4f007fef61fbd08cb787abe))
+* **Flags:** Show system segment overrides as read-only ([#8792](https://github.com/Flagsmith/flagsmith/issues/8792)) ([b5fc451](https://github.com/Flagsmith/flagsmith/commit/b5fc4517ecfd98eadd3bd601d2f86a2c7b8d230b))
+* **Telemetry:** Emit CLI usage events from an API middleware ([#9010](https://github.com/Flagsmith/flagsmith/issues/9010)) ([7ec6a0e](https://github.com/Flagsmith/flagsmith/commit/7ec6a0e70084ea33055f484015b9ef69b80ecf5a))
+
+
+### Bug Fixes
+
+* **Permissions:** Colour the permission summary chips by access level ([#9004](https://github.com/Flagsmith/flagsmith/issues/9004)) ([15033bd](https://github.com/Flagsmith/flagsmith/commit/15033bd8538bccdabaa6ad87c10ce826f152b3a1))
+* **Projects:** Remove N+1 calls to get project environments ([#8957](https://github.com/Flagsmith/flagsmith/issues/8957)) ([484b24b](https://github.com/Flagsmith/flagsmith/commit/484b24bbdce12cf7b040766706e94b2777ab0bd3))
+* **segments:** use chip and tokens for the system segment override label ([#9005](https://github.com/Flagsmith/flagsmith/issues/9005)) ([d465e74](https://github.com/Flagsmith/flagsmith/commit/d465e74ffa9d60b6e67ab8efe65a507a92d83f5d))
+* **Tokens:** make border colours apply and follow dark mode ([#9003](https://github.com/Flagsmith/flagsmith/issues/9003)) ([a117a65](https://github.com/Flagsmith/flagsmith/commit/a117a650d82e67ca828f6318dd94b7fce1e6ae1e))
+
+
+### Docs
+
+* update what we can change for SaaS customers  ([#8946](https://github.com/Flagsmith/flagsmith/issues/8946)) ([a436d5b](https://github.com/Flagsmith/flagsmith/commit/a436d5bf6328041521ce81bfbc6a152243d3bc1e))
+
 ## [2.292.0](https://github.com/Flagsmith/flagsmith/compare/v2.291.0...v2.292.0) (2026-11-17)
 
 
